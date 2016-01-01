@@ -2540,3 +2540,12 @@
 			}
 
 	}
+
+
+#logo {
+	 display: block;
+	margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em;
+  border-radius: 15px;
+}
