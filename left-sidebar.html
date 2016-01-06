@@ -17,13 +17,20 @@
             };
             var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
             var myLatlng = new google.maps.LatLng(20.580498,-100.391834);
+            var infowindow = new google.maps.InfoWindow({
+              title:"Tiendas One El Vigilante",
+              content: "Calle Andrés de Olmos 90, Cimatario, 76030 Santiago de Querétaro, Qro., Mexico"
+            });
             var marker = new google.maps.Marker({
             position: myLatlng,
             map: map,
             title: 'Tiendas El Vigilante'
             });
-            }
+            marker.addListener('click', function() {
+              infowindow.open(map, marker);
+            });
 
+          }
             google.maps.event.addDomListener(window, 'load', initialize);
         </script>
 	</head>
