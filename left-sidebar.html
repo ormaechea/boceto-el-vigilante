@@ -2,13 +2,32 @@
 
 <html>
 	<head>
-		<title>Ubica Tu Tienda | El Vigilante</title>
+		<title>Contáctenos | El Vigilante</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="http://maps.googleapis.com/maps/api/js"></script>
+      <script>
+          function initialize() {
+            var mapProp = {
+            center:new google.maps.LatLng(20.580498,-100.391834),
+            zoom:15,
+            mapTypeId:google.maps.MapTypeId.ROADMAP
+            };
+            var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+            var myLatlng = new google.maps.LatLng(20.580498,-100.391834);
+            var marker = new google.maps.Marker({
+            position: myLatlng,
+            map: map,
+            title: 'Tiendas El Vigilante'
+            });
+            }
+
+            google.maps.event.addDomListener(window, 'load', initialize);
+        </script>
 	</head>
-	<body class="no-sidebar">
+	<body class="left-sidebar">
 		<div id="page-wrapper">
 
 			<!-- Header Wrapper -->
@@ -19,36 +38,18 @@
 							<nav id="nav">
 								<ul>
 									<li><a href="home.html">El Vigilante</a></li>
-									<li>
-										<a href="#">Promociones</a>
-										<ul>
-											<li><a href="#">Promoción 1</a></li>
-											<li><a href="#">Promoción 2</a></li>
-											<li><a href="#">Promoción 3</a></li>
-											<li>
-												<a href="#">Submenú</a>
-												<ul>
-													<li><a href="#">Lorem ipsum dolor</a></li>
-													<li><a href="#">Phasellus consequat</a></li>
-													<li><a href="#">Magna phasellus</a></li>
-													<li><a href="#">Etiam dolore nisl</a></li>
-													<li><a href="#">Veroeros feugiat</a></li>
-												</ul>
-											</li>
-											<li><a href="#">Promoción 4</a></li>
-										</ul>
-									</li>
+									<li><a href="#">Promociones</a></li>
 									<li><a href="hagamos-negocio.html">Hagamos Negocio</a></li>
                   <li><a href="unete-al-equipo.html">Únete Al Equipo</a></li>
-                  <li class="current_page_item" ><a href="left-sidebar.html">Ubica Tu Tienda</a></li>
+                  <li class="current_page_item" ><a href="no-sidebar.html">Ubica Tu Tienda</a></li></li>
                   <li><a href="right-sidebar.html">Blog</a></li>
-                  <li><a href="no-sidebar.html">Contáctenos</a></li></li>
+                  <li><a href="left-sidebar.html">Contáctenos</a></li>
 								</ul>
 							</nav>
 
 						<!-- Header -->
 							<header id="header">
-								<h1><a href="home.html">Ubica Tu tienda</a></h1>
+								<h1><a href="index.html">Contáctenos</a></h1>
 							</header>
 
 					</div>
@@ -60,51 +61,41 @@
 					<!-- Main -->
 						<div id="main" class="container">
 							<div class="row">
-								<div class="12u">
-									<article id="content" >
-										<div id="googleMap" style="width:1200px;height:350px;"></div>
-
+								<div id="sidebar" class="4u 12u(mobile)">
+									<section>
+										<h2>Visítanos!</h2>
+										<div id="googleMap" class="left-content" style="width:350px;height:350px;"></div>
+									</section>
+								</div>
+								<div class="8u 12u(mobile) important(mobile)">
+									<article id="content">
+										<h2>Contáctenos</h2>
+                <form>
+                  <div class="row 50%">
+                    <div class="6u 12u(mobilep)">
+                      <input type="text" name="name" id="name" placeholder="Nombre" />
+                    </div>
+                    <div class="6u 12u(mobilep)">
+                      <input type="email" name="email" id="email" placeholder="Email" />
+                    </div>
+                  </div>
+                  <div class="row 50%">
+                    <div class="12u">
+                      <textarea name="message" id="message" placeholder="Mensaje" rows="5"></textarea>
+                    </div>
+                  </div>
+                  <div class="row 50%">
+                    <div class="12u">
+                      <ul class="actions">
+                        <li><input type="submit" class="button alt" value="Enviar" /></li>
+                      </ul>
+                    </div>
+                  </div>
+                </form>
 									</article>
-
-								</div>
-
-							</div>
-							<div class="row">
-								<div class="6u 12u(mobile)">
-									<section>
-										<ul class="style2">
-											<li class="first">
-												<a href="#" class="image left"><img src="images/pic09.jpg" alt=""></a>
-												<h3><a href="#">Petunlas</a></h3>
-												<p><a href="#">Phasellus sem tellus, consequat in euismod at, ultricies et eros. Duis amet urna imperdiet mattis. Aliquam non eros ligula, vitae bibendum.</a></p>
-											</li>
-											<li>
-												<a href="#" class="image left"><img src="images/pic10.jpg" alt=""></a>
-												<h3><a href="#">Tintero II</a></h3>
-												<p><a href="#">Phasellus sem tellus, consequat in euismod at, ultricies et eros. Duis amet urna imperdiet mattis. Aliquam non eros ligula, vitae bibendum.</a></p>
-											</li>
-										</ul>
-									</section>
-								</div>
-								<div class="6u 12u(mobile)">
-									<section>
-										<ul class="style2">
-											<li class="first">
-												<a href="#" class="image left"><img src="images/pic11.jpg" alt=""></a>
-												<h3><a href="#">Santa Mónica</a></h3>
-												<p><a href="#">Phasellus sem tellus, consequat in euismod at, ultricies et eros. Duis amet urna imperdiet mattis. Aliquam non eros ligula, vitae bibendum.</a></p>
-											</li>
-											<li>
-												<a href="#" class="image left"><img src="images/pic12.jpg" alt=""></a>
-												<h3><a href="#">Las Teresas</a></h3>
-												<p><a href="#">Phasellus sem tellus, consequat in euismod at, ultricies et eros. Duis amet urna imperdiet mattis. Aliquam non eros ligula, vitae bibendum.</a></p>
-											</li>
-										</ul>
-									</section>
 								</div>
 							</div>
 						</div>
-
 				</div>
 
 			<!-- Footer Wrapper -->
@@ -115,7 +106,7 @@
 							<div class="row">
 								<div class="3u 12u(mobile)">
 									<section>
-										<h2>Links de interés</h2>
+										<h2>Duis adipiscing</h2>
 										<ul class="style1">
 											<li class="first"><a href="#">Quis lacus praesent et aliquet</a></li>
 											<li><a href="#">Sagittis nisi vel dolore dignissim</a></li>
@@ -130,7 +121,7 @@
 								</div>
 								<div class="3u 12u(mobile)">
 									<section>
-										<h2>Más Links de interés</h2>
+										<h2>Sed bibendum</h2>
 										<ul class="style1">
 											<li class="first"><a href="#">Sagittis nisi vel dolore dignissim</a></li>
 											<li><a href="#">Pellentesque nulla adipiscing</a></li>
@@ -196,8 +187,6 @@
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/skel-viewport.min.js"></script>
 			<script src="assets/js/util.js"></script>
-			<script src="http://maps.googleapis.com/maps/api/js"></script>
-     <script src="assets/js/tiendas-mapa.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
 
