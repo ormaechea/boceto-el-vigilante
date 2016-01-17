@@ -2454,7 +2454,7 @@
 						}
 
 							#slider .viewer .reel .slide img {
-								width: 225%;
+								/*width: 225%;*/
 								line-height: 0;
 								position: absolute;
 								top: 0;
@@ -2556,5 +2556,10 @@
 
 .center-h{
 	display: table;
-   margin: 0 auto;
+  margin: 0 auto;
+}
+
+#googleMap {
+ width: 100%;
+ height: 20em;
 }
