@@ -2453,7 +2453,7 @@
 
 						#slider .viewer .reel .slide {
 							position: relative;
-							height: auto;
+							/*height: auto;*/
 						}
 
 							#slider .viewer .reel .slide img {
