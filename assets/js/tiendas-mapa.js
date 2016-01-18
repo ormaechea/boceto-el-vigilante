@@ -246,7 +246,157 @@ var places = [
     lng: -100.351876,
     title: 'T.V.Q.',
     content: 'CARR. A HUIMILPAN No. 1040 COL. VISTA ALEGRE ,QUERETARO,QRO.'
+  },
+  {
+    lat: 20.545015,
+    lng: -100.440645,
+    title: 'Tejeda',
+    content: 'CAMINO A LOS OLVERA KM 1 ,COL. TEJEDA, VILLA CORREGIDORA, QRO.'
+  },
+  {
+    lat: 20.597219,
+    lng: -100.434871,
+    title: 'Teresas',
+    content: 'HACIENDA SAN JUAN No. 1114 ESQ. HACIENDA SAN MARTÍN COL. LAS TERESAS, QUERETARO,QRO.'
+  },
+  {
+    lat: 20.625842,
+    lng: -100.442434,
+    title: 'Tintero I',
+    content: 'AV. REVOLUCION No.527, COL. EL TINTERO, ENTRE AV. DE LA POESIA Y RAMON LOPEZ VELARDE'
+  },
+  {
+    lat: 20.608386,
+    lng: -100.437027,
+    title: 'Tintero II',
+    content: 'RAFAEL LANDÍVAR No. 101 A COL. EL TINTERO ENTRE  PLUTARCO ELIAS CALLES Y RAFAEL LANDIVAR, QRO'
+  },
+  {
+    lat: 20.601853,
+    lng: -100.436144,
+    title: 'Tintero III',
+    content: 'AV.  TINTERO #701 LOCAL 1, COL. SANTA MONICA'
+  },
+  {
+    lat: 20.603729,
+    lng:  -100.39838,
+    title: 'San Roque',
+    content: 'AV SAN ROQUE #59 COL FRESNOS'
+  },
+  {
+    lat: 20.603729,
+    lng:  -100.39838,
+    title: 'La Griega',
+    content: ' CARRETERA ESTATAL 500 EL PARAISO-CHICHIMEQUILLAS KM. 12 +700 INT. 1, LA GRIEGA, EL MARQUEZ, QRO.'
+  },
+  {
+    lat: 20.588512,
+    lng: -100.367329,
+    title: 'Carretas',
+    content: 'CONSTITUYENTES No. 109 OTE. COL. CARRETAS'
+  },
+  {
+    lat: 20.319444,
+    lng: -100.284722,
+    title: 'Himalaya',
+    content: 'AVENIDA DE LOS CEDROS Nº2001, COL. RANCHO SAN PEDRO'
+  },
+  {
+    lat: 20.578519,
+    lng: -100.396116,
+    title: 'Casa Blanca',
+    content: 'AV. CONSTITUYENTES  ESQ. HERIBERTO ALLERA  Nº 222  PONIENTE , COL. CASA BLANCA '
+  },
+  {
+    lat: 20.375866,
+    lng: -99.924755,
+    title: 'Loma Alta',
+    content: 'PASEO LOMA ALTA  #  103 SAN JUAN DEL RIO, QRO.'
+  },
+  {
+    lat: 20.595766,
+    lng: -100.410442,
+    title: 'Universidad',
+    content: 'RIO AYUTLA # 118 COL LA PIEDAD  QUERETARO QRO  (ANTES TORINO)'
+  },
+  {
+    lat: 20.578897,
+    lng: -100.398317,
+    title: 'Loarca',
+    content: 'PLAN DE SAN LUIS Nº 6061 ESQ. CON SAKURAJIMA  DELEG. FELIX OSORES COL. EJIDO SAN MIGUEL CARRILLO.'
+  },
+  {
+    lat: 20.606284,
+    lng: -100.488547,
+    title: 'Viñedos',
+    content: 'CALLE MERLOT  ESQ  MALBEQ   S/N   FRACC. VIÑEDOS  (ADELANTE DE UN  PUEBLO QUE  SE LLAMA OBRAJUELO)'
+  },
+  {
+    lat: 20.655482,
+    lng: -100.341811,
+    title: 'Pradera',
+    content: 'CALLE CIERVO ESQUINA COMADREJA , LOCAL 1 , COLONIA LA PRADERA'
+  },
+  {
+    lat: 20.588515,
+    lng: -100.421629,
+    title: 'Tlacote',
+    content: 'AV. TLACOTE 213, COLONIA SAN ANTONIO DE LA PUNTA, LA CAPILLA'
+  },
+  {
+    lat: 20.388690,
+    lng: -99.937462,
+    title: 'San Gil',
+    content: 'CARR. FEDERAL 120 , SAN JUAN DEL RIO AMEALCO  KM 5-200 , EJIDO GALINDO   (DENTRO DE GASOLINERA, ANTES DE LLEGAR AL HOTEL FIESTA AMERICANA) '
+  },
+  {
+    lat: 20.579190,
+    lng: -100.419381,
+    title: 'Bosques',
+    content: 'AV. SANTUARIO DE GUADALUPE ESQ. CON AVENIDA SANTA MARIA DEL PUEBLITO, FRACC. BOSQUES, VILLA CORREGIDORA QUERETARO .(ATRÁS DE LA PORAMIDE DEL PUEBLITO).'
+  },
+  {
+    lat: 20.588793,
+    lng:  -100.389888,
+    title: 'Geo Plazas',
+    content: 'ZACAPOAXTLAS S/N COL. GEO PLAZAS  (ENTRE TOLTECAS Y ZACAPOAXTLAS )'
+  },
+  {
+    lat: 20.578793,
+    lng: -100.889888,
+    title: 'One Colinas',
+    content: 'Pról. BERNARDO QUINTANA 2601  COL. DON MANUEL Queretaro , Qro.'
+  },
+  {
+    lat: 20.636216,
+    lng: -100.414608,
+    title: 'One Don Antonio',
+    content: 'AV. CERRO DEL SOMBRERETE N 1151 - A Queretaro, Qro. '
+  },
+  {
+    lat: 20.621910,
+    lng: -100.441481,
+    title: 'One Rocio',
+    content: ' AV. LAGUNA Nº 101 ,  COL. EL ROCIO, Querétaro, Qro.'
+  },
+  {
+    lat: 20.375527,
+    lng: -99.924753,
+    title: 'Loma Alta II',
+    content: 'LOTE 3 DE LA MAZANA 464 S/N, FRACC. LOMA ALTA (ENTRE LAS CALLES LOMA DORADA  Y LOMA SECA )'
+  },
+  {
+    lat: 20.644583,
+    lng: -100.462666,
+    title: 'One Mompani',
+    content: 'BLVB. MOMPANI NO.611 FRACC. LA PEÑA'
   }
+
+
+
+
+
+
 
 ];
 
@@ -255,6 +405,7 @@ function initializeMap() {
     var mapDetails = {
       center: new google.maps.LatLng(20.585996,-100.388011),
       zoom: 12,
+      scrollwheel: false,
       mapTypeId: google.maps.MapTypeId.ROADMAP
     };
     var map = new google.maps.Map(document.getElementById("googleMap"),

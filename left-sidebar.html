@@ -11,15 +11,16 @@
       <script>
           function initialize() {
             var mapProp = {
-            center:new google.maps.LatLng(20.580498,-100.391834),
+            scrollwheel: false,
+            center:new google.maps.LatLng(20.550342,-100.399974),
             zoom:15,
             mapTypeId:google.maps.MapTypeId.ROADMAP
             };
             var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-            var myLatlng = new google.maps.LatLng(20.580498,-100.391834);
+            var myLatlng = new google.maps.LatLng(20.550342,-100.399974);
             var infowindow = new google.maps.InfoWindow({
-              title:"Tiendas One El Vigilante",
-              content: "Calle Andrés de Olmos 90, Cimatario, 76030 Santiago de Querétaro, Qro., Mexico"
+              title:"Tiendas One",
+              content: "San Andrés de Olmos No. 90, Col. Cimatario, Zona Centro 76030"
             });
             var marker = new google.maps.Marker({
             position: myLatlng,
@@ -45,7 +46,7 @@
 							<nav id="nav">
 								<ul>
 									<li><a href="home.html">El Vigilante</a></li>
-									<!-- <li><a href="#">Promociones</a></li> -->
+									<li><a href="promociones.html">Promociones</a></li>
 									<li><a href="hagamos-negocio.html">Hagamos Negocio</a></li>
                   <li><a href="unete-al-equipo.html">Únete Al Equipo</a></li>
                   <li class="current_page_item" ><a href="no-sidebar.html">Ubica Tu Tienda</a></li></li>
@@ -116,7 +117,7 @@
                     <h2>Síguenos en nuestras redes sociales!</h2>
                     <div class="row">
                       <div class="4u 12u(mobile)"><a href="#" class="button small icon fa-twitter">8.4k</a></div>
-                      <div class="4u 12u(mobile)"><a href="#" class="button small alt icon fa-facebook">14.2k</a></div>
+                      <div class="4u 12u(mobile)"><a href="https://www.facebook.com/vigilanteone.tiendas/?fref=ts" class="button small alt icon fa-facebook">14.2k</a></div>
                       <div class="4u 12u(mobile)"><a href="#" class="button small alt2 icon fa-instagram">2.8k</a></div>
                     </div>
                   </section>
@@ -144,8 +145,7 @@
                             <a href="#" class="">informacion@elvigilante.com</a>
                           </li>
                           <li class="icon fa-home">
-                            Cto Antonio Pérez Alcocer, Mision de Sta Sofía<br />
-                            76190 Candiles, Qro México
+                            San Andrés de Olmos No. 90, Col. Cimatario Zona Centro 76030
                           </li>
                         </ul>
                       </div>
@@ -155,7 +155,7 @@
                             <a href="#">@el_vigilante</a>
                           </li>
                           <li class="icon fa-phone">
-                            +(52) 921 212 4443
+                            (442) 214 23 13
                           </li>
                         </ul>
                       </div>
