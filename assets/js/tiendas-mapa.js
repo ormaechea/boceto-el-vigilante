@@ -390,12 +390,91 @@ var places = [
     lng: -100.462666,
     title: 'One Mompani',
     content: 'BLVB. MOMPANI NO.611 FRACC. LA PEÑA'
+  },
+  {
+    lat: 20.587480,
+    lng: -100.41824,
+    title: 'One Santa Maria',
+    content: 'CARR. A TLACOTE NO. 4950 COL. SANTA MARÍA MAGDALENA'
+  },
+  {
+    lat: 20.588793,
+    lng: -100.389888,
+    title: 'One Puerta Navarra',
+    content: 'CALLE PUERTA NAVRRA S/N FRACC. PUERTA NAVARRA'
+  },
+  {
+    lat: 20.395111,
+    lng:  -99.985634,
+    title: 'Loma Alta III',
+    content: 'AV. LOMA DEL RIO NO. 113 COL. LOMA ALTA, SAN JUAN DEL RIO QUERETARO'
+  },
+  {
+    lat: 20.395111,
+    lng:  -99.985634,
+    title: 'La Joya',
+    content: 'BLV. HACIENDA EL JACAL NO. 401 COL. LA JOYA, QUERÉTARO, QRO'
+  },
+  {
+    lat: 20.569025,
+    lng:  -100.419288,
+    title: 'La Joya',
+    content: 'BLV. HACIENDA EL JACAL NO. 401 COL. LA JOYA, QUERÉTARO, QRO'
+  },
+  {
+    lat: 20.395111,
+    lng:  -99.985634,
+    title: 'La Rueda',
+    content: 'AV. DEL TIMÓN 210-1 COL. LA RUEDA SAN JUAN DEL RIO '
+  },
+  {
+    lat: 20.534307,
+    lng:   -100.413865,
+    title: 'One Los Olvera',
+    content: 'CAMINO A LOS OLVERA #678 COL LOS OLVERA'
+  },
+  {
+    lat: 20.581024,
+    lng: -100.391201,
+    title: 'One Las Américas',
+    content: 'BLVD DE LAS AMÉRICAS #911 COL BOULEVARES DEL CIMATARIO (PASANDO REFORMA AGARIA)'
+  },
+  {
+    lat: 20.621066,
+    lng: -100.47342,
+    title: 'One Santa Elena',
+    content: 'CARRETERA QUERETARO-TLACOTE #1005 CONDOMINIO 3, PLAZA SANTA ELENA 2 EXHACIENDA SAN JUANICO'
+  },
+  {
+    lat: 20.546711,
+    lng: -100.377931,
+    title: 'One Centro Sur',
+    content: 'LIBRAMIENTO SUR PONIENTE #850 _CARRETERA HUIMILPAN'
+  },
+  {
+    lat: 20.585827,
+    lng: -100.40271,
+    title: 'One Tecnologico',
+    content: 'AV. TECNOLOGICO #38 COLONIA:  NIÑOS HEROES'
+  },
+  {
+    lat: 20.655699,
+    lng: -100.432381,
+    title: 'One San Jose Iturbide',
+    content: 'LIMITE GTO/SAN LUIS POTOSI DE LA CERRETERA QRO- SLP R-57'
+  },
+  {
+    lat: 20.591700,
+    lng: -100.365853,
+    title: 'One La Cañada',
+    content: 'CARRETERA A TEQUISQUIAPAN COLONIA MILENIO III'
+  },
+  {
+    lat: 20.604128,
+    lng: -100.3895,
+    title: 'One San Miguel De Allende',
+    content: 'LIB. JOSE MANUEL ZAVALA ZAVALA(LIBRAMIENTO A DOLORES) #45 COLONIA VISTA ANTIGUA'
   }
-
-
-
-
-
 
 
 ];
