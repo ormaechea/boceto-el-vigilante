@@ -91,7 +91,7 @@
 					speed: 600,
 					fadeInSpeed: 1500,
 					autoFit: true,
-					autoFitAspectRatio: (1200 / 832),
+					autoFitAspectRatio: (1200 / 370),
 					navPreviousSelector: '.previous-button',
 					navNextSelector: '.next-button',
 					indicatorSelector: '.indicator ul li',
