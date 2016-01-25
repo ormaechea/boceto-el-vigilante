@@ -495,7 +495,7 @@ function initializeMap() {
     }
 
     function addPlace(place) {
-        var content = '<h3>'+ place.title +' '+ '<a href=https://www.google.com/maps/place/'+place.lat+','+ place.lng +'><i class="fa fa-arrow-up"></i></a>'+'</h3>'+'<h1>Dirección: ' + place.content + '</h1>' ;
+        var content = '<h3>'+ place.title +' '+'<a href=https://www.google.com/maps/place/'+place.lat+','+ place.lng +'><i class="fa fa-arrow-up"></i></a>'+'</h3>'+'<h1>Dirección: ' + place.content + '</h1>' ;
         var infowindow = new google.maps.InfoWindow({
             content: content
         });
