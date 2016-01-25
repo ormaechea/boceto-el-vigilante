@@ -2571,7 +2571,19 @@
 
 /*Icons*/
 
-.fa-arrow-up{
+.fa-location-arrow{
 	color:black;
-	float:right;
 }
+
+
+.alignleft {
+  float: left;
+}
+.alignright {
+  float: right;
+}
+
+#t-d{
+	color:black;
+}
+

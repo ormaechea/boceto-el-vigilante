@@ -3,9 +3,6 @@ $(document).ready(function () {
   initializeMap();
 });
 
-
-
-
 var places = [
   {
     lat: 20.609837,
@@ -495,7 +492,7 @@ function initializeMap() {
     }
 
     function addPlace(place) {
-        var content = '<h3>'+ place.title +' '+'<a href=https://www.google.com/maps/place/'+place.lat+','+ place.lng +'><i class="fa fa-arrow-up"></i></a>'+'</h3>'+'<h1>Dirección: ' + place.content + '</h1>' ;
+        var content = '<div class="inline-block"><h3 class="alignleft">'+ place.title +'</h3>'+'<a id="t-d" href=https://www.google.com/maps/place/'+place.lat+','+ place.lng +'><h4  class="alignright">Direcciones <i class="fa fa-location-arrow fa-2x"></i></a></h4></div>'+' <div style="clear: both;"></div><h1>Dirección: ' + place.content + '</h1>' ;
         var infowindow = new google.maps.InfoWindow({
             content: content
         });
