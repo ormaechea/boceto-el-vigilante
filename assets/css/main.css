@@ -2548,6 +2548,7 @@
 
 
 #center-image {
+	position: relative;
 	display: block;
 	margin-left: auto;
   margin-right: auto;
@@ -2560,6 +2561,7 @@
 }
 
 .center-h{
+	position: relative;
 	display: table;
   margin: 0 auto;
 }
