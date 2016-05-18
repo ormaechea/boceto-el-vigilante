@@ -2546,6 +2546,23 @@
 
 	}
 
+/*Icons*/
+
+.fa-location-arrow{
+	color:black;
+}
+
+
+.alignleft {
+  float: left;
+}
+.alignright {
+  float: right;
+}
+
+#t-d{
+	color:black;
+}
 
 #center-image {
 	position: relative;
@@ -2584,22 +2601,6 @@
 	text-align:justify;
 }
 
-/*Icons*/
 
-.fa-location-arrow{
-	color:black;
-}
-
-
-.alignleft {
-  float: left;
-}
-.alignright {
-  float: right;
-}
-
-#t-d{
-	color:black;
-}
 
 
