@@ -2583,18 +2583,13 @@
   margin: 0 auto;
 }
 
+.center{
+	text-align: center;
+}
+
 #googleMap {
  width: 100%;
  height: 22em;
-}
-
-
-.orange{
-	color:#FF5414;
-}
-
-.dark-orange{
-	color:#d72c00;
 }
 
 .justified{
